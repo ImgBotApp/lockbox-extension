@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Release Notes - Lockbox Extension</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link href="../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Release Notes";
+    var mkdocs_page_input_path = "release-notes.md";
+    var mkdocs_page_url = "/release-notes/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Lockbox Extension</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../install/">Installing</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../user-guide/">User Guide</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Release Notes</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#lockbox-release-notes">Lockbox Release Notes</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#012-alpha">0.1.2-alpha</a></li>
+        
+            <li><a class="toctree-l3" href="#011-alpha1">0.1.1-alpha1</a></li>
+        
+            <li><a class="toctree-l3" href="#011-alpha">0.1.1-alpha</a></li>
+        
+            <li><a class="toctree-l3" href="#010-alpha1">0.1.0-alpha1</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../contributing/">Contributing</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../code_of_conduct/">Code of Conduct</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../api/">API Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../metrics/">Metrics Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../releases/">Releases</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Lockbox Extension</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Release Notes</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/mozilla-lockbox/lockbox-extension/edit/master/docs/release-notes.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="lockbox-release-notes">Lockbox Release Notes</h1>
+<h2 id="012-alpha">0.1.2-alpha</h2>
+<p><em>Date: 2017-11-13</em></p>
+<h3 id="whats-new">What's New</h3>
+<ul>
+<li>Interface styles updated to more closely match Photon design language (<a href="https://github.com/mozilla-lockbox/lockbox-extension/pull/295">#295</a>) (<a href="https://github.com/mozilla-lockbox/lockbox-extension/pull/307">#307</a>)</li>
+<li>Improved user interface design on welcome screen and home page (<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/300">#300</a>)</li>
+<li>Updated content throughout the interface to guide the user experience (<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/165">#165</a>)</li>
+</ul>
+<h3 id="whats-fixed">What's Fixed</h3>
+<ul>
+<li>Clicking the toolbar (browser action) icon would not open the editor if the editor was opened and the user changed the URL (<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/262">#262</a>)</li>
+<li>The toolbar icon did not invert to light colors on dark themes (<a href="https://github.com/mozilla-lockbox/lockbox-extension/pull/306">#306</a>)</li>
+</ul>
+<h3 id="known-issues">Known Issues</h3>
+<ul>
+<li>This is pre-release software subject to change. Your data may not be retained.</li>
+<li>There is no way to change your Lockbox master password. If you forget your master password, you'll need to start over fresh by either:</li>
+<li>Opening the this extension's Preferences and clicking the "<code>💥💣 Reset 💣💥</code>" button; or</li>
+<li>Uninstalling and re-installing the extension</li>
+<li>Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.</li>
+</ul>
+<h2 id="011-alpha1">0.1.1-alpha1</h2>
+<p><em>Date: 2017-11-01</em></p>
+<h3 id="whats-fixed_1">What's Fixed</h3>
+<ul>
+<li>We added language to the first-run experience to remind testers that this is pre-release software and both <strong>subject to change and data may not be retained</strong>.</li>
+</ul>
+<h3 id="known-issues_1">Known Issues</h3>
+<ul>
+<li>There is no way to change your Lockbox master password.  If you forget your master password, you'll need to start over fresh by either:</li>
+<li>Opening the this extension's Preferences and clicking the "<code>💥💣 Reset 💣💥</code>" button; or</li>
+<li>Uninstalling and re-installing the extension</li>
+<li>Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.</li>
+</ul>
+<h2 id="011-alpha">0.1.1-alpha</h2>
+<p><em>Date: 2017-10-30</em></p>
+<h3 id="whats-new_1">What's New</h3>
+<ul>
+<li>When installing this extension, Firefox will no longer prompt to save logins. Any logins saved in Firefox are still there, and you can still use it to autofill login forms, but the browser will not prompt to save new ones. This feature will be re-enabled if you uninstall Lockbox, and can be manually changed by the user in Firefox's preferences.(<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/211">#211</a>)</li>
+<li>You now have the ability to reset Lockbox and start from scratch.(<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/137">#137</a>)</li>
+<li>Front-end validation of fields in the editor (<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/207">#207</a>)</li>
+<li>New Alpha installations can now happen from <a href="https://mozilla-lockbox.github.io/lockbox-extension/">this page</a> versus the email distribution of the link which results in a blank page after install.</li>
+</ul>
+<h3 id="whats-fixed_2">What's Fixed</h3>
+<ul>
+<li>Improved localization including page titles (<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/225">#225</a>) and default locale consistency (<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/140">#140</a>)</li>
+<li>Show/Hide password field no longer resizes the window (<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/179">#179</a>)</li>
+<li>Modal dialogs behave more consistently and even keeps entered text if the modal closes (<a href="https://github.com/mozilla-lockbox/lockbox-extension/issues/162">#162</a>)</li>
+</ul>
+<h3 id="known-issues_2">Known Issues</h3>
+<ul>
+<li>There is no way to change your Lockbox master password.  If you forget your master password, you'll need to start over fresh by either:</li>
+<li>Opening the this extension's Preferences and clicking the "<code>💥💣 Reset 💣💥</code>" button; or</li>
+<li>Uninstalling and re-installing the extension</li>
+<li>Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.</li>
+</ul>
+<h2 id="010-alpha1">0.1.0-alpha1</h2>
+<p><em>Date: 2017-10-16</em></p>
+<h3 id="whats-new_2">What's New</h3>
+<p>This is a pre-release of the Lockbox password manager for internal Mozilla employees.</p>
+<p>This starts as a signed Firefox extension where you can:</p>
+<ul>
+<li>Create a Lockbox account with a master password to lock/unlock your data</li>
+<li>View entries</li>
+<li>Search entries</li>
+<li>Add, edit, and delete entries</li>
+<li>Copy username and password to clipboard</li>
+<li>Submit feedback</li>
+</ul>
+<h3 id="known-issues_3">Known Issues</h3>
+<ul>
+<li>Lockbox has only been tested on Firefox 57 and above.  Installing on Firefox 56 or lower may not function at all.</li>
+<li>There is no way to reset your Lockbox master password. If you forget your master password, you'll need to start over fresh by uninstalling and re-installing this extension.</li>
+<li>This is a Lockbox account, which stays local to your Firefox installation. There is no integration with Firefox accounts to sync (yet).</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../contributing/" class="btn btn-neutral float-right" title="Contributing">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../user-guide/" class="btn btn-neutral" title="User Guide"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/mozilla-lockbox/lockbox-extension/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../user-guide/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../contributing/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/require.js"></script>
+      <script src="../search/search.js"></script>
+
+</body>
+</html>
